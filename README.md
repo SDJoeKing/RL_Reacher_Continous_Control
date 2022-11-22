@@ -11,7 +11,7 @@ For this project, an agent has been trained to control a 2 joint reacher robotic
 3. `Success criteria`: to solve the environment, the agent must get an average score of +30 over 100 consecutive episodes.
 4. Bench implemented by Udacity: the bench agent training performance provided by Udacity indicates maximum socre approximately 37, training episodes at circa 63 eposides. 
 
-### Getting Started adapted from Udacity instructions
+### Getting Started adapted from Udacity instructions (this project is based on 1 Agent training)
 
 1. Copy this github repo:   
     ```
