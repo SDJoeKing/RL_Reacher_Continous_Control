@@ -7,7 +7,7 @@ For this project, an agent has been trained to control a 2 joint reacher robotic
 #### Environment introduction
 1. State and action space: The state space is `33`, values corresponding to position, rotation, velocity, and angular velocities of the arm. The action space is `4`, all continuous within range of `(-1, 1)`, corresponding to torques applicable to two joints.
 
-2. Reward is +0.1 for each step that the agent's hand is in the goal location, the goal location is changing in various patterns
+2. Reward is `+0.1` for each step that the agent's hand is in the goal location, the goal location is changing in various patterns
 3. `Success criteria`: to solve the environment, the agent must get an average score of +30 over 100 consecutive episodes.
 4. Bench implemented by Udacity: the bench agent training performance provided by Udacity indicates maximum socre approximately 37, training episodes at circa 63 eposides. 
 
