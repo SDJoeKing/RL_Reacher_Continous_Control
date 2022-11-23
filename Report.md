@@ -44,7 +44,8 @@ The training with a single Agent solved the environment in approximately `68` ep
 
 **From the figure of result below, it is evident that the episodes training required to achieve average score of +30 are 68 episodes. The training outputs also valided that**
 
- 
+ ![Training Results](https://user-images.githubusercontent.com/69092110/203447464-65ffd9f0-b4cf-49bc-b7a9-f783cf5c5946.png)
+
 
 ### Future improvements
 As discussed above, firstly I can try implementing a warm-up routine to gather sufficient experiences in buffer before update, so that the `update_every` setting can be more meaningful. Besides, I have tried SAC (not included in this repo) but it did not work quite as I would hoped. It is worth finding out the reason (implementation and understanding of the algorithm). I would also like to try the `20` Agent environment and experiment with `PPO` and `TRPO`. 
