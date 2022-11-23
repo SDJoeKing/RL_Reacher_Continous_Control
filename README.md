@@ -46,7 +46,7 @@ For this project, an agent has been trained to control a 2 joint reacher robotic
     pip install .
     ```
 5. Due to platform and cuda restrictions, the requirement from step 5 of torch==0.4.0 can no longer be satisfied in my machine. Instead I have losen the restriction to any torch versions that are suitable for current machine. The rest of the requirements remain unchanged and satisfied (including the unityagents version requirement). 
-6. Check `Navigation_training.ipynb`
+6. Check `Continuous_Control.ipynb`
 
 ### Instructions
 In `Continuous_Control.ipynb`, the training process was demonstrated. The `agent.py` and `model.py` contains codes for RL agent and the backend neural net architecture, respectively.  A report.md file is also included explaining the project.
